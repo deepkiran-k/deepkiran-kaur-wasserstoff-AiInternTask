@@ -26,7 +26,7 @@ def main():
 
         llm = LLMEmailAssistant(config['openai_api_key'])
         emails = fetch_email_fr_db(conn)
-        #emails = []
+       
         for email in emails:
             emailSummary =  llm.summarize_email(email['body'])
             print('Email summary [' + emailSummary + ']')
