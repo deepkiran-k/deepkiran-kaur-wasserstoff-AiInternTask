@@ -1,0 +1,10 @@
+{
+  "dbhost":"localhost",
+  "dbuser":"root",
+  "dbname":"email_assistant",
+  "openai_api_key" : "your_open_ai_api_key,
+  "google_secret_key": "your_google_secret_key",
+  "slack_token" : "your_slack_token",
+  "google_api_key" : "your_google_api_key",
+  "google_cse_id": "your_google_cse_id"
+}
