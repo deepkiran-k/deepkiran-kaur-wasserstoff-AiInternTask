@@ -9,7 +9,7 @@ from web_search import web_search
 def main():
     try:
 
-        with open("/Users/chalkdigital/Downloads/AIEmailAssistant/AIEA/config.json", "r") as file:
+        with open("config.json", "r") as file:
             content = file.read()
             config = json.loads(content)
             print("host %s" % config['dbhost'])
