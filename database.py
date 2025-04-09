@@ -17,10 +17,6 @@ def create_db_connection(dbhost, dbuser, dbname):
         return None
 
 def fetch_email_fr_db(conn):
-    '''conn = create_db_connection(dbhost, dbuser, dbname)
-    if conn is None:
-        return []
-    print('connected to db')'''
     cursor =None
     try:
         cursor = conn.cursor(buffered=True)
@@ -60,10 +56,6 @@ def fetch_email_fr_db(conn):
 
 
 def store_emails(emails, conn):
-    '''conn = create_db_connection(dbhost, dbuser, dbname)
-    if conn is None:
-        return []'''
-
     email_ids = []  # Store the generated IDs
     try:
         cursor = conn.cursor()
