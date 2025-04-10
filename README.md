@@ -49,7 +49,7 @@ AIEmailAssistant/
 2. **Set Up the Environment**:
    Install the required Python libraries:
    ```bash
-   pip install openai google-auth google-auth-oauthlib google-api-python-client mysql-connector-python
+   pip install openai google-auth google-auth-oauthlib google-api-python-client mysql-connector-python requests
    ```
 
 3. **Set Up the Database**:
